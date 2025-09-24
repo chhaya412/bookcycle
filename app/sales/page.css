@@ -1,0 +1,157 @@
+.add-book-container {
+    max-width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color:white;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    color:black;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .subjects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .subjects span {
+    background: #f4f4f4;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .subjects span:hover {
+    background: #ddd;
+  }
+  
+  .options {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #43a047;
+  }
+  
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .bottom-nav button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .bottom-nav .active {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  .photo-upload-container {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .photo-upload-container h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #2d3748;
+  }
+  
+  .upload-box {
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #cbd5e0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #fafafa;
+    transition: 0.3s;
+  }
+  
+  .upload-box:hover {
+    border-color: #4caf50;
+    background: #f1fef3;
+  }
+  
+  .placeholder {
+    text-align: center;
+    color: #718096;
+  }
+  
+  .camera-icon {
+    font-size: 28px;
+    display: block;
+  }
+  
+  .preview {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+  }
+  
